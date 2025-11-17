@@ -90,7 +90,7 @@ y=20
 print(f'The value is {{x+y}} equal {x+y}.')
 print('my name is \'jig\' and you can call me \"jag\".')
 print(f'my name is {name.split()} and you can call me {name2.upper()}.')
-# introduction=f"My name is {name}."\
+# introduction=f"My name is {name}."
 
 print(var4)
 a='apple'
@@ -101,14 +101,26 @@ print(a.split())
 print(a.capitalize())
 print(a.title())
 print(a.upper())
-b='HasIna, Mojib, Tarek'
+b='HasIna Mojib Tarek'
+b1='HasIna', 'Mojib', 'Tarek'
 print()
 print(b.lower())
 print(b.casefold())
 print('*'.join(b))
 print(b.join(' .'))
 print(b.join('**'))
-print(b.join('*'))
+print('/'.join(b1))
+words = ['Hello', 'world']
+result = ' '.join(words)
+print(result)  # Output: Hello world
+data = ['John', 'Doe', '30', 'Engineer']
+csv_line = ','.join(data)
+print(csv_line)  # Output: John,Doe,30,Engineer
+name_parts = ['Mr.', 'John', 'Doe']
+full_name = '/'.join(name_parts)
+print(full_name)  # Output: Mr. John Doe
+
+
 txt = "Hello, welcome to my world."
 # na pele error dibe
 x = txt.index("welcome")
@@ -133,13 +145,14 @@ print(b.strip("2y"))
 b='  2y2y2y a dhamaka 828282y2y2y  '# eta shudu prthomer and last er value remove korte pare
 print(b.strip())
 # print(b.removeprefix('a'))
-s=' f567657 fan dad father dad father 77357   '
-print(s.strip())
-print(s.strip('f'))
-print(s.rstrip('567')) 
-print(s.rstrip('567'))
+s='f567657 fan dad father,dad father 77357'
+# print(s.strip())
+# print(s.strip('f'))
+# print(s.rstrip('567')) 
+# print(s.rstrip('567'))
 b=s.split() 
-print(s.split())
+# c=b.strip()
+# print(c)
 print(b[2])
 #print(b[0])
 txt = "50"
@@ -147,7 +160,7 @@ x = txt.zfill(10)
 print(x)
 print(b)
 print(type(b))
-print(s.split('dad')) 
+print(s.split(',')) 
 print(s.split("father",2))
 print(s.split('father',1))
 print(s.rsplit('father',1))

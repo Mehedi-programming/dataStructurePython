@@ -1,16 +1,19 @@
 informtion={'name':('mehedi',1,2,3),'age':22,'height':'5.9','education':'HSC','current':'dhaka'}
-print(informtion['name'])
-for i in informtion.values():
-    print(i)
+# print(informtion['name'])
+# for i in informtion.values():
+#     print(i)
 for i,j in informtion.items():
-    print(i,":",j)
+    print(i)
 b=informtion.setdefault('name')
 print(informtion,b,sep='\n')
 #change
-informtion['height']='5.10'
+informtion['height']=('5.10',2)
 print(informtion)
 print(informtion.clear())
 informtion={'name':('mehedi',1,2,3),'age':'22','height':'5.9','education':'HSC','current':'dhaka'}
+hello={'year':2330}
+print(informtion[hello])
+
 print(informtion)
 #del informtion["education"]
 informtion.popitem()

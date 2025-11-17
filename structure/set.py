@@ -15,7 +15,7 @@ for i in set1:
     if type(i) is tuple:
         for j in i:
             print(j)
-set1={'name','age','location',(1,2,'hasan')}
+set1={'name','age','location','hasan'}
 set1.add('mehedi')
 print(set1)
 
@@ -47,3 +47,6 @@ d={2,132,2,12,3}
 er={3,22,11,2,12}
 print(d-er)
 print(d&er)
+hello = set([1,2,3,4,5,6,7,8,9,1,2,3,4,5])
+(hello.add(10))
+print(hello)

@@ -5,13 +5,13 @@ def displayAll():
     print('click 3 for display your account:')
     print('click 4 for break from here:')
 
-def moneyAdd(customer):
-    Name=input('Enter your name')
-    for i in customer:
-        if i['name']==Name:
-            while True:
-                try:
-                    Fname=input('')
+# def moneyAdd(customer):
+#     Name=input('Enter your name')
+#     for i in customer:
+#         if i['name']==Name:
+#             while True:
+#                 try:
+#                     Fname=input('')
 
 customer=[]
 def displayItems():

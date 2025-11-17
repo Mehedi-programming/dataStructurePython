@@ -38,3 +38,21 @@ while i < 10:
   if i == 3:
     continue
   print(i)
+
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+
+print("List of numbers:", numbers)
+
+
+def multivalu():
+    while True:
+      try:
+        numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+        print("List of numbers:", numbers)
+      except ValueError:
+        print("please enter only number.")
+      else:
+         break
+      
+multivalu()
+

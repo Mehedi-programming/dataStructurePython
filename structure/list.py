@@ -1,5 +1,7 @@
 sarc=["bangdesh","india","pakistan","Nepal","Butan"] 
 sarc1="bangdesh","india","pakistan","Nepal","Butan"
+hello,gelo,hani,gani,rabi = sarc
+print(gelo)
 name='mehedi hasan mozumder'
 print(name,end='.')
 print("This is:", sarc)
@@ -12,7 +14,9 @@ for index,name in enumerate(population):
 
     
 numbers=[6,4,2,1,3,2,32,34,79]
+print(len(numbers)) 
 n='2321'
+print(numbers)
 n2=str(2321)
 print(type(n))
 print(type(n2))
@@ -20,10 +24,8 @@ print(n==n2,end='')
 print(n is n2)
 #print(sarc+numbers)
 numbers.reverse()
-print(numbers)
 print(numbers[3])
 print(sarc[2])
-print(len(numbers)) 
 print(len(sarc))
 print(type(sarc))
 #constructor
@@ -64,6 +66,7 @@ print(sarc)
 sarc[1:3]=['mena','raju']
 print(sarc)
 sarc=["bangdesh","india","pakistan","Nepal","Butan"]
+print(len(sarc))
 sarc[2]='Iran'
 print(sarc)
 sarc[2]='shlha'

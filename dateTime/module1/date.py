@@ -1,0 +1,20 @@
+from datetime import datetime
+value= datetime.now()
+print(value)
+print(f'year :{value.year}')
+print(f'month :{value.month}')
+print(f'Date :{value.date}')
+print(f'day :{value.day}')
+print(f'hour =>{value.hour}:{value.minute} min')
+print(f'minute :{value.minute}')
+print(f'second :{value.second}')
+print(f'{value.strftime('%c')}')
+print(f'{value.strftime('%A')}')
+value1=datetime(2025,3,2)
+print(value1.strftime('%B'))
+print(value.strftime('%m'))                       
+print(value.strftime('%x'))                       
+print(value.strftime('%X'))             
+value = 123456645
+print(datetime.fromtimestamp(value))
+          
